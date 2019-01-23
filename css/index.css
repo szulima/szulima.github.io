@@ -1,16 +1,28 @@
-* {
+body {
  margin: 0;
  padding: 0;
  background-color: black;
- text-align: center;
 
  font-family: 'Montserrat', sans-serif;
  color: grey;
 }
 
-h1 {
+.header {
+  margin-top: 10px;
+  text-align: center;
+}
 
+h1  {
   font-size: 2.2em;
+}
+
+a {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+a:visited {
+  color: grey;
 }
 
 img {
@@ -28,5 +40,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3%;
 }

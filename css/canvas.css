@@ -1,0 +1,16 @@
+/*html, body {
+  height: 100%;
+}*/
+
+body {
+	display: flex;
+	margin: 0;
+}
+
+canvas {
+	flex: 1;
+	/*alternatywne działające rozwiązanie*/
+	/*position: absolute;
+	top: 0;
+	bottom: 0;*/	
+}

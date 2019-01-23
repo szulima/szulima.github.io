@@ -1,0 +1,7 @@
+body {
+	text-align: center;
+}
+
+#bg {
+	background: linear-gradient(to right, #DB6C39, #DB3956);
+}
