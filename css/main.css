@@ -1,9 +1,16 @@
+html,
 body {
-	margin: 0px;
- 	background-color: black;
-	
-	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	height: 100%;
+	background-color: black;
+
+	font-family: "Montserrat", sans-serif;
 	color: grey;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
 }
 
 .container {
@@ -12,23 +19,45 @@ body {
 	justify-content: center;
 }
 
-img {
-	width: 300px;
-	height: 250px;
-	margin: 10px;
-	transition: all 1s;
-}
-
-img:hover {
-	transform: scale(1.1);
-}
-
 .card {
 	width: 18rem;
 	margin: 15px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: inherit;
+.card img {
+	width: 300px;
+	height: 250px;
+	transition: all 1s;
+}
+
+.card img:hover {
+	transform: scale(1.1);
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.push {
+	height: 50px;
+}
+
+.footer {
+	height: 50px;
+	color: #f4f442;
+}
+
+.footerIns {
+	margin-right: 50px;
+	text-align: right;
+}
+
+.footerSpacing {
+	margin-left: 10px;
+}
+
+.footerSign {
+	vertical-align: middle;
 }
